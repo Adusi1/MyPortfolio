@@ -177,7 +177,9 @@ section {
 }
 
 .border__img {
-  border-radius: 100%;
+width: 370px; 
+height: 370px; 
+border-radius: 50%;
 }
 
 .section__text {
@@ -365,7 +367,8 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
+  /* background: rgb(250, 250, 250); */
+  background: lightblue;
 }
 
 .project-img {
@@ -374,9 +377,15 @@ article .icon {
   height: 90%;
 }
 
+.project3-img {
+  border-radius: 2rem;
+  width: 220px;
+  height: 220px;
+}
+
 .project-title {
   margin: 1rem;
-  color: black;
+  color: rgb(6, 6, 6);
 }
 
 .project-btn {
